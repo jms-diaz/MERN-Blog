@@ -1,0 +1,52 @@
+.register {
+    font-family: 'Varela Round', sans-serif;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f5f8;
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 75px;
+}

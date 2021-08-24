@@ -1,0 +1,57 @@
+.login {
+    font-family: 'Varela Round', sans-serif;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f5f8;
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    opacity: .65;
+}
+
+.loginRegisterButton {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 45px;
+}
